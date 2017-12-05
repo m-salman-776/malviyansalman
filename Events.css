@@ -1,0 +1,231 @@
+       ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li {
+            float: left;
+            width: 10vw;
+            height: 5vh;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 2.5px;
+            color: #000;
+            
+        }
+        header {
+             left: 0px;
+  right: 0px;
+    height: 80px;
+    position: absolute;
+    position: fixed;
+    z-index: 12;
+    background: #fff;
+    top: 0px;
+    width: 100vw;
+    box-shadow: 1px 1px 5px grey;
+}
+
+        ul li a:hover {
+            background:white;
+           // border: solid black .1px;
+            box-shadow: 3px 5px 6px black;
+        }
+        ul li a {
+            text-decoration: none;
+            display: block;
+        
+        }
+        ul li ul li {
+            display: none;
+            background-color:white;
+           // transition-duration: 8s;
+        }
+        ul li:hover ul li{
+            display: block;
+            box-shadow: 1px 0px 6px black;
+        }
+
+        .containerTop{
+position: relative;
+width: 100%;
+}
+
+#wrapper{
+  left: 0px;
+  right: 0px;
+            /*logo and navigation bar*/
+            background-color: white;
+    box-shadow: 5px 5px 5px gray;
+            color: black;
+            position: relative;
+            height: 11vh;
+            width: 100%;
+    z-index: 99999;
+        }
+             #logo{
+            float: left;
+            padding-top: 8px;
+            padding-left: 1cm;
+            height: 60px;
+        }
+                       
+        #menubar{
+            float: right;
+            padding-right: 0px;
+            padding-top: 20px;
+        }
+
+
+
+
+.event{
+  margin-top: 15px;
+  float: left;
+  width: 49%;
+  text-align: center;
+  height: 750px;
+  //border: 2px solid green;
+  box-shadow: 5px 5px 10px grey;
+  margin-bottom: 15px;
+      border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+    
+}
+.event2{
+  margin-top: 15px;
+  float: right;
+    width: 49%;
+  text-align: center;
+  height: 750px;
+  //border: 2px solid green;
+  box-shadow: 5px 5px 10px grey;
+  margin-bottom: 15px;
+      border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.eventHead{
+  background: #AE6AE6;
+  height: 100px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+#name{
+  padding-top: 30px;
+  font-size: 2em;
+}
+.text{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 45%;
+  float: left;
+  padding-right: 1px;
+ // border: 2px solid green;
+  //font-size: 1.25em;
+}
+ #image1{
+  margin-top: 20px;
+  width: 50%;
+  height: 35%;
+  float: right;
+  margin-right: 15px;
+  border: 1px solid black;
+  background: red;
+}
+
+.rules{
+  margin-top: 44px;
+  width: 45%;
+  height: 25%;
+  float: right;
+  margin-right: 15px;
+ // border: 1px solid black;
+ // background: red;
+}
+#image2{
+    margin-top: 42px;
+  margin-left: 10px;
+  width: 50%;
+  float: left;
+  height: 35%;
+  border: 1px solid black; 
+
+}
+
+#footerDesign
+{
+    /*margin-top:  30px;*/
+    position: absolute;
+    left: 0;
+    right: 0px;
+    top: 3200px;
+    height: 19vh;
+    width: 100%;
+    z-index: 2;
+    background-color:rgb(84, 85, 86);
+   
+}
+#follw{
+    float: left;
+    color: white;
+    margin-left:5px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#footerIcon img{
+    margin-top: 1px;
+    height: 30px;
+    width: 40px;
+    padding: 1px;
+    float:left;
+    margin-right: 1px;
+}
+#footerIcon{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    float: left;
+}
+
+#collegeLogo img{
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+    float: left;
+}
+.footerContact{
+    width: 20%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+    
+}
+#copyright{
+    color:white;
+    position: absolute;
+    margin: 100px;
+    margin-left: 450px;
+   // background: red;
+}
+.line{
+    background: grey;
+    width: 90%;
+    height:2px;
+    position: absolute;
+    margin: 95px;
+   float:left;
+}
+#uparrow img{
+    float:right;
+    padding-top: 20px;
+    padding-left: 12px;
+    height: 80px;
+    width: 40px;
+}
+#uparrow  img:hover{
+    transform: translate(0px,-12px);
+    transition-duration:2s;
+}
+
+

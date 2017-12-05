@@ -1,0 +1,378 @@
+       /******************MENU BAR CSS**************************/
+       /******************MENU BAR CSS**************************/
+       /******************MENU BAR CSS**************************/
+       /******************MENU BAR CSS**************************/
+       ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li {
+            float: left;
+            width: 10vw;
+            height: 5vh;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 2.5px;
+            color: #000;
+            
+        }
+        header {
+             left: 0px;
+  right: 0px;
+    height: 80px;
+    position: absolute;
+    position: fixed;
+    z-index: 12;
+    background: #fff;
+    top: 0px;
+    width: 100vw;
+    box-shadow: 0px 0px 9px lightgrey;
+}
+
+        ul li a:hover {
+            background:white;
+           // border: solid black .1px;
+            box-shadow: 3px 5px 6px black;
+        }
+        ul li a {
+            text-decoration: none;
+            display: block;
+        
+        }
+        ul li ul li {
+            display: none;
+            background-color:white;
+           // transition-duration: 8s;
+        }
+        ul li:hover ul li{
+            display: block;
+            box-shadow: 1px 0px 6px black;
+        }
+
+        .containerTop{
+position: relative;
+width: 100%;
+}
+
+#wrapper{
+            /*logo and navigation bar*/
+            background-color: white;
+    box-shadow: 5px 5px 5px gray;
+            color: black;
+            position: relative;
+            height: 11vh;
+            width: 100%;
+    z-index: 99999;
+        }
+             #logo{
+            float: left;
+            padding-top: 8px;
+            padding-left: 1cm;
+            height: 60px;
+        }
+                       
+        #menubar{
+            float: right;
+            padding-right: 0px;
+            padding-top: 20px;
+        }
+
+
+       /******************End of MENU BAR CSS**************************/
+       /******************End of MENU BAR CSS**************************/
+       /******************End of MENU BAR CSS**************************/
+       /******************End of MENU BAR CSS**************************/
+
+        body{
+            background:#FAFAFA ;
+        }
+
+.boxAroundImages{
+    width: 90%;
+  //  border:1px solid green;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 2px 4px 5px grey;
+   // background: #B26DEB;
+        
+}
+.year{
+   height: 100px;
+      font-size: 2em;
+    background: #0EA8D2;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.yearName{
+    position: relative;
+    top: 30px;
+    color: #014972;
+    text-decoration: underline;
+}
+        .firstcontainer{
+            margin-top: 6vh;
+           // margin-left: 7vw;
+            position: relative;
+            display: block;
+            transition-duration: 0.4s;
+        }
+        .firstcontainer img{
+            margin-left: 0;
+            position: relative;
+            opacity: 1;
+            height: 192px;
+            width: 256px;
+            display: inline-block;
+            transition-duration: 0.4s;
+        }
+        .imgcontainer:hover .img {
+            transform: translate(-2%,-2%);
+            opacity: 0.5;
+           // box-shadow: 5px 5px 3px grey;
+            border: 1px solid black;
+            transition-duration: .5s;
+        }
+        .imgcontainer:hover .bigcontainer{
+            background-color: white;
+            opacity: 0.6;
+        }
+        .imgcontainer{
+           // margin-left: 2vw;
+            display: inline-block;
+            height:192px;
+            width:256px;
+            border:1px solid blue;
+            position: relative;
+            overflow: hidden;
+        }
+        .imgcontainer:hover{
+            border: 0px solid snow;
+        }
+         .imgcontainer:hover .zoomimage{
+             top: 50%;
+             cursor: pointer;
+        }
+        .zoomimage{
+          //  transition-duration: 0.4s;
+            position: absolute;
+            left : 50%;
+            top : calc(100% + 30px);
+            height: 25px;
+            width: 25px;
+        }
+        .zoomimage img{
+            height: 100%;
+            width: 100%;
+                }
+        .bigcontainer{
+            transition-duration: 0.4s;
+            position:fixed;
+            height: 100%;
+            width: 100%;
+            top:0;
+            opacity: 0;
+            z-index:-3;
+            background:rgba(0,0,0,0.3);
+        }
+        .bigimage{
+            position:absolute;
+            top:50%;
+            left:50%;
+            height:70vh;
+            width:70vw;
+            transform: translate(-50%,-50%);
+            background: white;
+        }
+        .cross{
+            position: absolute;
+            top: 10;
+            right: 180px;
+            height: 25px;
+            width: 25px;
+        }
+.cross:hover{
+    cursor: pointer;
+}
+        .cross img{
+            height: 100%;
+            width: 100%;
+        }
+.videos{
+    margin-left: 7vw;
+}
+.videosHeading{
+    color: crimson;
+    margin-bottom: 12;
+    font-size: 40px;
+    text-decoration: underline;
+   
+    
+}
+.videosHeading:hover{
+    font-size: 50px;
+    transition-duration: 2s;
+    text-decoration: underline;
+    letter-spacing: .5em;
+    width: 90%;
+}
+.videosText{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-size: 25;
+    width: 90%;
+}
+.videocontainer{
+    margin-top: 12px;
+    width: 45px;
+    color: red;
+    display: inline;
+}
+.freshersTalk{
+    margin-top: 30px;
+    margin-left: 7vw;
+   // border:2px dotted black;
+    width: 90%;
+    
+}
+.freshersTalkHeading{
+    color: crimson;
+    margin-bottom: 12;
+    font-size: 40px;
+    text-decoration: underline; 
+}
+.freshersTalkHeading:hover{
+    font-size: 50px;
+    transition-duration: 2s;
+    text-decoration: underline;
+    letter-spacing: .5em;
+    width: 90%;
+}
+.fresherTalkText{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-size: 25;
+    width: 90%;
+}
+.freshersTalkVideos{
+    text-align: center;
+}
+.gallary{
+    margin-left: 7vw;
+    width: 90%;
+}
+.gallaryHeading{
+    color: crimson;
+    margin-bottom: 12;
+    font-size: 40px;
+    text-decoration: underline; 
+}
+.gallaryHeading:hover{
+    font-size: 50px;
+    transition-duration: 2s;
+    text-decoration: underline;
+    letter-spacing: .5em;
+    width: 90%;
+}
+.gallaryText{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-size: 25;
+    width: 90%;
+}
+
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+
+#footerDesign
+{
+    left: 0px;
+    margin-top:  30px;
+    height: 19vh;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    background-color:rgb(84, 85, 86);
+    position: relative;
+   
+}
+#follw{
+    float: left;
+    color: white;
+    margin-left:5px;
+    word-spacing: 2px;
+    margin-top: 10px;
+  //  background: red;
+    text-decoration: underline;
+}
+#footerIcon img{
+    margin-top: 1px;
+    height: 30px;
+    width: 40px;
+    padding: 1px;
+    float:left;
+    margin-right: px;
+   // background: pink;
+}
+#footerIcon{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    float: left;
+}
+
+#collegeLogo img{
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+   // background: green;
+    float: left;
+}
+.footerContact{
+   // background: yellow;
+    width: 20%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+    
+}
+#copyright{
+    text-align: center;
+    color:white;
+    position: absolute;
+    margin: 100;
+    margin-left: 450;
+    //background: red;
+}
+.line{
+    background: grey;
+    width: 90%;
+    height:2px;
+    position: absolute;
+    margin: 95px;
+   float:left;
+}
+#uparrow{
+/*     //background: url('uparrow.png');
+/*     height:0px;
+    width: 12px; */
+  /*  margin-left: 55vw;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+     */
+    
+}
+#uparrow img{
+    float:right;
+    padding-top: 20px;
+    padding-left: 12px;
+    height: 80px;
+    width: 40px;
+}
+#uparrow  img:hover{
+    transform: translate(0px,-12px);
+    transition-duration:2s;
+}

@@ -1,0 +1,561 @@
+            .header{
+           /*top banner*/
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+                 left: 0px;
+  right: 0px;
+        z-index: -1;
+        background-color: #FAFAFA;
+       }
+
+.sliderbox{
+overflow: hidden;
+ height: 615px;
+ // width: 4185px;
+}
+.sliderimage{
+  position: relative;
+  width: 4185px;
+  animation: changeSlide;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+.sliderimage img{
+   height: 615px;
+  width: 1395px;
+  float: left;
+   //border: solid red;
+}
+@keyframes changeSlide{
+  0%{left: 0px;}
+  26%{left:0px;}
+  33%{left: -1395px;}
+  60%{left: -1395px;}
+  66%{left: -2790px;}
+  93%{left: -2790px;}
+ // 100%{left: -4185px;}
+}
+
+
+#wrapper{
+     left: 0px;
+  right: 0px;
+            /*logo and navigation bar*/
+            background-color: #FAFAFA;
+    box-shadow: 5px 5px 5px gray;
+            color: black;
+            position: relative;
+            height: 11vh;
+            width: 100%;
+    z-index: 99999;
+        }
+             #logo{
+            float: left;
+            padding-top: 8px;
+            padding-left: 1cm;
+            height: 60px;
+        }
+                       
+        #menubar{
+            float: right;
+            padding-right: 0px;
+            padding-top: 20px;
+        }
+
+  #homeContent{
+           /*Text under Vision and Mission*/
+             color: black;
+             background: #FAFAFA;
+             text-align: center;
+             font-family: verdana;
+             width: 90%;
+    }
+       #aboutUs{
+           /*text under e-cell mmmut*/
+           width: 90%;
+           background: #FAFAFA;
+           text-align: center;
+       }
+       center{
+        background: #FAFAFA;
+       }
+       
+       .full{
+        margin-top: 100vh;
+        background: #fff;
+       }
+
+     
+    .first-pd1{
+        height: 330px;
+        background: url("images/parallex1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        .first-pd2{
+        height: 330px;
+        background: url("images/parallex2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        
+        
+        .sticky{
+            /*css for sticky navigation bar*/
+        position: fixed !important;
+        top: 0 !important;
+        width: 100%;
+    }
+    
+        body{
+            background-repeat: no-repeat;
+            padding: 0px;
+            margin: 0px;
+            font-family: arial;
+        }
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li {
+            float: left;
+            width: 10vw;
+            height: 5vh;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 2.5px;
+            color: #000;
+            
+        }
+
+        ul li a:hover {
+            background:white;
+           // border: solid black .1px;
+            box-shadow: 3px 5px 6px black;
+        }
+        ul li a {
+            text-decoration: none;
+            display: block;
+        
+        }
+        ul li ul li {
+            display: none;
+            background-color:white;
+           // transition-duration: 8s;
+        }
+        ul li:hover ul li{
+            display: block;
+            box-shadow: 1px 0px 6px black;
+        }
+
+        .containerTop{
+position: relative;
+width: 100%;
+}
+.slideNumber{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+/****************************************** WHAT WE DO STYLING ************************************/
+/****************************************** WHAT WE DO STYLING ************************************/
+/****************************************** WHAT WE DO STYLING ************************************/
+/****************************************** WHAT WE DO STYLING ************************************/
+   
+    body{
+        padding: 0px;
+        margin:0;
+        font-family: arial
+    }
+    #eventStarting{
+        text-align: center;
+        margin-bottom: 2em;
+        color:black
+    }
+    .imgs{
+        height: 40vh;
+        width: 40vw;
+        position: absolute;
+        top : 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .imgs img{
+        height: auto;
+        width: 100%;
+        overflow: hidden
+    }
+    .imageHover{
+        transition-duration: 0.5s;
+        top: 0;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background:#FAFAFA;
+        display: none;
+        z-index: 1;
+        opacity: 0;
+        
+    }
+    .cross{
+        cursor: pointer;
+        position: absolute;
+        right:0;
+        z-index: 1;
+        top:0;
+        height: 20px;
+        width: 20px;
+    }
+    .cross img{
+        height: 100%;
+        width : 100%;
+    }
+    #eventStatingHeading{
+font-size: 1em;
+        font-family: arial;
+        font-size: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #eventStartingDescription{
+        font-family: arial
+        
+        
+    }
+        .scale-down{
+            /* button cross each other*/
+            top: 20%;
+            transform: translate(0,-50%);
+            /* button cross each other*/
+        }
+        b{/*button name in circle*/
+            position: absolute;
+            display: inline-block;
+            top: 50%;
+            transform: translate(0, -50%);
+            /*button name in circle*/
+        }
+        span{/*for the name that appears on hover the events*/
+            color: white;
+            position: relative;
+            top: 0px;
+            padding: 10px;
+            opacity: 0;
+            transition-duration: 0.7s;  
+            transition-delay: 0.4s;
+            font-size: 20px;
+        }
+        .button{/*button design*/
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            background: white;
+            border-radius: 200px;
+            transition-duration: 0.9s;
+            transition-delay: 0.2s;
+            text-align: center;
+        }
+        .button:nth-child(1){
+            left: 20%;
+            /*.button:nth-child(1) for first bitton */
+
+        }
+        .button:nth-child(2){
+            right: 20%;
+            /*.button:nth-child(1) for second bitton */
+        }
+        .button:hover{
+            transition-duration: 0.3s;
+            transition-delay: 0s;
+            background: lightcoral;/*appear on hovering*/
+            cursor: pointer;
+            color: white;/*appear on button without hover*/
+        }
+        .main-div{
+            position: relative;
+            width: 25%;
+            height: 250px;
+            background: red;
+            float: right;
+            overflow:hidden;
+        }
+        .black{
+                /*for black transparent div that appears on hovering*/
+            position: absolute;
+            background: rgba(0,0,0,0);
+            height: 250px;
+            width: 100%;
+            top: 100%;
+            transition-duration: 0.7s;
+            text-align: center;
+        }
+        .image{
+            /*for background image*/
+            width: 100%;
+            position: absolute;
+            height: 250px;
+            transition-duration: 0.7s;
+        }
+        .main-div:nth-of-type(1) .image{
+            background: url(images/LOGO3.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(2) .image{
+            background: url(images/FOG2.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(3) .image{
+            background: url(images/TD2.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(4) .image{
+            background: url(images/CA1.jpg) no-repeat;
+            background-size: cover;
+        }
+.main-div:nth-of-type(5) .image{
+            background: url(images/mk1.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(6) .image{
+            background: url(images/seminor.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(7) .image{
+            background: url(images/idea.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(8) .image{
+            background: url(images/step.png) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(9) .image{
+            background: url(images/decrypt.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .main-div:nth-of-type(10) .image{
+            background: url(images/e-soch.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(11) .image{
+            background: url(images/dream.jpg) no-repeat;
+            background-size: cover;
+        }
+        .main-div:nth-of-type(12) .image{
+            background: url(images/biz_quiz.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .main-div:hover .black{
+            top:0px;
+            background: rgba(0,0,0,0.7);
+        }   
+        .main-div:hover .scale-down{
+            top: 70%;
+        }
+        .main-div:hover .image{
+            transform: scale(1.2, 1.2) rotate(-10deg);
+        }
+        .main-div:hover .button:nth-child(1){
+            left: 55%;
+        }
+        .main-div:hover .button:nth-child(2){
+            right: 55%;
+        }
+        .main-div:hover span{
+            top: 50px;
+            opacity: 1;
+        }
+
+/************************************* END OF WHAT WE DO STYLING **********************************/
+/************************************* END OF WHAT WE DO STYLING **********************************/
+/************************************* END OF WHAT WE DO STYLING **********************************/
+/************************************* END OF WHAT WE DO STYLING **********************************/
+ 
+
+
+
+
+/*<!--****************************** STARTING OF UPCOMMING EVENTS ***************************!-->
+<!--******************************** STARTING OF UPCOMMING EVENTS *****************************!-->
+<!--******************************** STARTING OF UPCOMMING EVENTS *****************************!-->
+<!--******************************** STARTING OF UPCOMMING EVENTS *****************************!-->
+<!--******************************** STARTING OF UPCOMMING EVENTS *****************************!-->
+<!--******************************** STARTING OF UPCOMMING EVENTS *****************************!-->*/
+  .container{
+    margin-top: 3vh;
+    margin-left: 1vw;
+    width: 20vw;
+    height: 65vh;
+    border: 1px solid black;
+    display: inline-block;
+    text-align:center;
+    color: black;
+    background-color: #FAFAFA;
+  }
+  .container:hover{
+    transition-duration: 0.4s;
+     transform: translate(.7%,0%);
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color:rgb(97, 150, 237);
+    color: white;
+  }
+  .container h2{
+    width: 100%;
+    font-family: sans-serif;
+  //    color: darkorchid;
+    text-align: center;
+    //text-decoration: underline;;
+  //    background-color: aqua;
+  }
+  .buttonUpcommingEvents{ 
+    margin-top: 60%;
+    margin-left: 30%;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: serif;
+    font-size: 17px;
+  }
+  .buttonUpcommingEvents:hover{
+    background-color:rgb(23, 103, 232);
+      color: black;
+  }
+  .container p{
+    font-family: cursive;
+    font-size: 20px;
+    color: firebrick;
+
+  }
+  .smallcontainer{
+  //     background-color: aqua;
+     width: 100%;
+     
+  }
+  @media (max-width:600px){
+        .container{
+            width:70%;
+            margin:auto;
+            display:block;
+            padding: 25px;
+            margin-bottom: 23px;
+        }
+        .buttonUpcommingEvents{
+            margin-top:65%;
+        }
+    }
+
+
+/*<!--**************************** END OF UPCOMMING EVENTS STYLE ***************************!-->
+<!--****************************** END OF UPCOMMING EVENTS STYLE *****************************!-->
+<!--****************************** END OF UPCOMMING EVENTS STYLE *****************************!-->
+<!--****************************** END OF UPCOMMING EVENTS STYLE *****************************!-->
+<!--****************************** END OF UPCOMMING EVENTS STYLE *****************************!-->
+<!--****************************** END OF UPCOMMING EVENTS STYLE *****************************!-->*/
+
+
+
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+
+#footerDesign
+{
+    margin-top:  30px;
+    height: 19vh;
+    width: 100%;
+    background-color:rgb(84, 85, 86);
+  //  position: relative;
+   
+}
+#follw{
+    float: left;
+    color: white;
+    margin-left:5px;
+    word-spacing: 2px;
+    margin-top: 10px;
+  //  background: red;
+    text-decoration: underline;
+}
+#footerIcon img{
+    margin-top: 1px;
+    height: 30px;
+    width: 40px;
+    padding: 1px;
+    float:left;
+    margin-right: px;
+   // background: pink;
+}
+#footerIcon{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    float: left;
+}
+
+#collegeLogo img{
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+   // background: green;
+    float: left;
+}
+.footerContact{
+   // background: yellow;
+    width: 20%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+    
+}
+#copyright{
+    text-align: center;
+    color:white;
+    position: absolute;
+    margin: 100;
+    margin-left: 450;
+    //background: red;
+}
+.line{
+    background: grey;
+    width: 90%;
+    height:2px;
+    position: absolute;
+    margin: 95px;
+   float:left;
+}
+#uparrow{
+/*     //background: url('uparrow.png');
+/*     height:0px;
+    width: 12px; */
+  /*  margin-left: 55vw;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+     */
+    
+}
+#uparrow img{
+    float:right;
+    padding-top: 20px;
+    padding-left: 12px;
+    height: 80px;
+    width: 40px;
+}
+#uparrow  img:hover{
+    transform: translate(0px,-12px);
+    transition-duration:2s;
+}

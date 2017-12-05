@@ -1,0 +1,549 @@
+body {
+    font-family: Cabin;
+    background: #fafafa;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+       ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li {
+            float: left;
+            width: 10vw;
+            height: 5vh;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 2.5px;
+            color: #000;
+            
+        }
+
+        ul li a:hover {
+            background:white;
+           // border: solid black .1px;
+            box-shadow: 3px 5px 6px black;
+        }
+        ul li a {
+            text-decoration: none;
+            display: block;
+        
+        }
+        ul li ul li {
+            display: none;
+            background-color:white;
+           // transition-duration: 8s;
+        }
+        ul li:hover ul li{
+            display: block;
+            box-shadow: 1px 0px 6px black;
+        }
+
+        .containerTop{
+position: relative;
+width: 100%;
+}
+
+#wrapper{
+     left: 0px;
+  right: 0px;
+            /*logo and navigation bar*/
+            background-color: white;
+    box-shadow: 5px 5px 5px gray;
+            color: black;
+            position: relative;
+            height: 11vh;
+            width: 100%;
+    z-index: 99999;
+        }
+             #logo{
+            float: left;
+            padding-top: 8px;
+            padding-left: 1cm;
+            height: 60px;
+        }
+                       
+        #menubar{
+            float: right;
+            padding-right: 0px;
+            padding-top: 20px;
+        }
+
+#container {
+    width: 80vw;
+    height: 400px
+    margin-left: 11vw;
+    margin-top: 130px;
+}
+
+#aboutUs{
+           /*text under e-cell mmmut*/
+           width: 90%;
+           background: #fff;
+           text-align: center;
+       }
+
+.person {
+    position: absolute;
+    width: 20vw;
+    height: 400px;
+    margin-right: 2vw;
+    background: #fafafa;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 4px 2px lightgrey;
+    left: 11vw;
+    z-index: 2;
+}
+
+
+
+.image {
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    background: #fff;
+    border-bottom: dashed 2px grey;
+}
+
+.info {
+    width: 20vw;
+    height: 125px;
+    position: relative;
+    padding-top: 20px;
+    border-top: dashed 2px grey;
+    color: rgba(127, 125, 125, 1);
+    /*text-shadow: 0px 0px 4px lightgrey;*/
+    text-align: center;
+    background: #fff;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 13vw;
+    width: 13vw;
+    border-radius: 200px;
+    box-shadow: 0px 0px 10px 4px #ccff90;
+}
+
+#senior1Circle {
+    background: url("image/nikhil.jpg") no-repeat;
+    background-size: contain;
+}
+
+#senior2Circle {
+    background: url("images/verma.jpg") no-repeat;
+    background-size: contain;
+}
+
+#senior3Circle {
+    background: url("images/kushwaha.jpg") no-repeat;
+    background-size: cover;
+}
+
+#senior4Circle {
+    background: url("images/shubham.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+#suchitaCircle {
+    background: url("images//suchita.jpg") no-repeat;
+    background-size: contain;
+}
+
+#navneetCircle {
+    background: url("images/verma.jpg") no-repeat;
+    background-size: contain;
+}
+
+#pankajCircle {
+    background: url("images/kushwaha.jpg") no-repeat;
+    background-size: cover;
+}
+
+#salmanCircle {
+    background: url("images/shubham.jpg") no-repeat;
+    background-size: cover;
+}
+
+#priyakaCircle {
+    background: url("image/nikhil.jpg") no-repeat;
+    background-size: contain;
+}
+
+#nikhilCircle {
+    background: url("images/verma.jpg") no-repeat;
+    background-size: contain;
+}
+
+#shubhamCircle {
+    background: url("images/kushwaha.jpg") no-repeat;
+    background-size: cover;
+}
+
+#hritikaCircle {
+    background: url("images/shubham.jpg") no-repeat;
+    background-size: cover;
+}
+
+#shradhaCircle {
+    background: url("image/nikhil.jpg") no-repeat;
+    background-size: contain;
+}
+
+#swadhhaCircle {
+    background: url("images/verma.jpg") no-repeat;
+    background-size: contain;
+}
+
+#tusharCircle {
+    background: url("images/kushwaha.jpg") no-repeat;
+    background-size: cover;
+}
+
+#yugalCircle {
+    background: url("images/shubham.jpg") no-repeat;
+    background-size: cover;
+}
+
+#anandCircle {
+    background: url("image/nikhil.jpg") no-repeat;
+    background-size: contain;
+}
+
+#saktiCircle {
+    background: url("images/verma.jpg") no-repeat;
+    background-size: contain;
+}
+
+#kushwahaCircle {
+    background: url("images/kushwaha.jpg") no-repeat;
+    background-size: cover;
+}
+
+#shubhCircle {
+    background: url("images/shubham.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.info p {
+    margin: 0px 7px;
+}
+
+.emailId {
+    height: 60px;
+    width: 370px;
+    margin: auto;
+}
+
+.emailId a {
+    text-decoration: none;
+    color: black;
+}
+
+.emailId img {
+    float: left;
+    margin-right: 15px;
+    height: 60px;
+}
+
+.emailId p {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.smedia {
+    width: 100%;
+    height: 10vh;
+    bottom: 0px;
+}
+
+
+.social:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: translate(10%, 10%);
+}
+
+header {
+    height: 80px;
+    position: absolute;
+    position: fixed;
+    z-index: 12;
+    background: #fff;
+    top: 0px;
+    width: 100vw;
+    box-shadow: 0px 0px 9px lightgrey;
+}
+
+.main-header-logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+.main-header-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 6vw;
+}
+
+ol a {
+    text-decoration: none;
+    font-family: Cabin;
+    margin: 5px 1.2vw;
+    padding: 2px 5px;
+    color: #000;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+    border: solid 1px transparent;
+}
+
+.li_item {
+    border-bottom: solid 1px magenta;
+}
+
+ol a:hover {
+    border-bottom: solid 1px magenta;
+}
+
+li {
+    display: inline;
+}
+
+.question-answer {
+    margin-top: 150px;
+}
+
+.welcome-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 30px;
+    width: auto;
+    font-family: Merienda;
+    color: mediumaquamarine;
+    font-size: 35px;
+}
+
+header nav li:last-of-type {
+    display: none;
+}
+
+.burger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 5px;
+    background: #06beb6;
+    border-radius: 10px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.r-nav {
+    position: fixed;
+    top: 0px;
+    width: calc(100vw - 30vw);
+    background: #fff;
+    height: 100%;
+    box-shadow: 0px 0px 10px grey;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(-100vw, 0px);
+    display: none;
+    opacity: 0;
+}
+
+.r-nav li {
+    display: block;
+    width: fit-content;
+    padding: 15px;
+}
+
+@media (max-width: 640px) {
+    header nav li {
+        display: none;
+    }
+    header nav li:last-of-type {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: inline;
+        vertical-align: middle;
+    }
+    header,
+    .main-header-logo {
+        height: 60px;
+    }
+    .welcome-img {
+        font-size: 5.5vw;
+        margin-right: 100px;
+        left: 66px;
+    }
+    .text {
+        width: 100%;
+    }
+    .text b {
+        font-size: 2em;
+    }
+    .text .desc {
+        font-size: 0.9em;
+    }
+    
+    .r-nav {
+        transition-duration: 0.8s;
+        z-index: 100;
+        display: block !important;
+    }
+    .r-nav nav {
+        margin-left: 0px !important;
+    }
+    .r-nav ol {
+        padding-left: 0px !important;
+    }
+    #container {
+        margin-left: 0px;
+        width: 100vw;
+        height: auto;
+    }
+    .person {
+        width: 100%;
+        position: static;
+        height: 450px;
+    }
+    .image,
+    .info {
+        width: 100%;
+    }
+    .person .smedia {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .circle {
+        height: 125px;
+        width: 125px;
+    }
+    .image {
+        height: 150px;
+    }
+    .info {
+        height: 200px;
+    }
+}
+
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+/*******************Footer css Style *************/
+
+#footerDesign
+{
+    /*margin-top:  30px;*/
+    position: absolute;
+    top: 2250px;
+    left: 0px;
+    right: 0px;
+    height: 19vh;
+    width: 100%;
+    z-index: 2;
+    background-color:rgb(84, 85, 86);
+   
+}
+#follw{
+    float: left;
+    color: white;
+    margin-left:5px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#footerIcon img{
+    margin-top: 1px;
+    height: 30px;
+    width: 40px;
+    padding: 1px;
+    float:left;
+    margin-right: 1px;
+}
+#footerIcon{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    float: left;
+}
+
+#collegeLogo img{
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+    float: left;
+}
+.footerContact{
+    width: 20%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+    
+}
+#copyright{
+    color:white;
+    position: absolute;
+    margin: 100px;
+    margin-left: 450px;
+   // background: red;
+}
+.line{
+    background: grey;
+    width: 90%;
+    height:2px;
+    position: absolute;
+    margin: 95px;
+   float:left;
+}
+#uparrow img{
+    float:right;
+    padding-top: 20px;
+    padding-left: 12px;
+    height: 80px;
+    width: 40px;
+}
+#uparrow  img:hover{
+    transform: translate(0px,-12px);
+    transition-duration:2s;
+}
